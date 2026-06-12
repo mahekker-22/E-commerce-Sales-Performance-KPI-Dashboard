@@ -1,23 +1,27 @@
 # E-commerce Sales Performance & KPI Dashboard
 
 ## Project Overview
-This Power BI dashboard provides a comprehensive analysis of an e-commerce platform's sales performance, profitability, and operational efficiency. It tracks key performance indicators (KPIs) across sales cycles (MTD, QTD, YTD) and analyzes year-over-year (YOY) and month-over-month (MOM) growth.
+This Power BI dashboard provides a comprehensive analysis of an e-commerce platform's sales performance, profitability, and operational efficiency. It tracks critical business metrics across multiple timeframes (MTD, QTD, YTD) to evaluate growth trajectories and monitor logistics success rates.
 
-## Live Preview / Dashboard Snapshot
-<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/082a9018-5d13-440b-b1b2-98d2b354bcd6" />
+## Dashboard Snapshot
+<img width="1919" height="961" alt="image" src="https://github.com/user-attachments/assets/8f8066f7-6fd3-462b-aaf6-f51b078bdca6" />
 
 
-## Key Metrics & Insights
-* **Revenue & Profitability:** Achieved **₹28.98M in Total Sales** with a strong **Profit Margin of 19.51%** (Total Profit: ₹5.65M).
-* **Growth Trajectory:** Strong performance highlighted by significant **YOY Sales Growth** and **YOY Profit Growth** metrics.
-* **Operations & Logistics:** * Total Orders: 2,500 (Average Order Value: ₹11.59K).
-  * **Delivery Success Rate: 74.88%** (1,872 Delivered Orders).
-  * **Return Rate: 9.16%** and a **Cancellation Rate of 6.00%**.
+## Key Metrics Showcased
+* **Total Sales:** ₹28.98M
+* **Total Profit:** ₹5.65M (19.51% Profit Margin)
+* **Total Orders:** 2,500
+* **Average Order Value:** ₹11.59K
+* **Delivery Success Rate:** 74.88% (1,872 Delivered Orders)
 
-## Data Source
-The analysis is built using the `Ecommerce_Sales_Data.csv` dataset, which contains transactional details including Order IDs, Customer Demographics (Age, City, State), Product Categories, Financial Breakdowns (COGS, Gross Sales, GST, Discounts), and Order Statuses.
+> ⚠️ **Data Limitation & Interpretation Note:**
+> The final two KPI cards on the dashboard (**Previous Month Sales** and **MOM Sales Growth %**) display blank or incomplete values in the snapshot. This is purely due to data limitations in the raw dataset (missing historical baseline records for the preceding comparative month). The underlying **DAX formulas and time-intelligence calculations are 100% accurate** and fully functional; they will populate automatically as soon as consecutive transactional data is refreshed into the semantic model.
 
-## Tech Stack & Skills Demonstrated
-* **Power BI Desktop:** Dashboard design, canvas layout, and data visualization.
-* **DAX (Data Analysis Expressions):** Created advanced time intelligence metrics including Sales MTD, QTD, YTD, YOY Growth %, and operational ratios (Delivery Success Rate %, Return Rate %).
-* **Power Query:** Data cleaning, type transformations, and data modeling.
+## Files in this Folder
+* `All KPI.pdf` - A complete PDF document showing the full layout of the dashboard.
+* `Ecommerce_Sales_Data.csv` - The raw transactional dataset used as the primary data source.
+
+## Skills & Core Competencies Demonstrated
+* **Data Modeling:** Transforming raw, uncleaned transactional data into a clean reporting structure via Power Query.
+* **Advanced DAX Analytics:** Crafting robust time-intelligence measures (MTD, QTD, YTD) and percentage-based growth tracking calculations.
+* **UI/UX Design:** Designing a clean executive dashboard with an intuitive KPI layout and high visual clarity.
