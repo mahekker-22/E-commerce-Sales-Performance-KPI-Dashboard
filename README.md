@@ -15,7 +15,7 @@ This Power BI dashboard provides a comprehensive analysis of an e-commerce platf
 * **Delivery Success Rate:** 74.88% (1,872 Delivered Orders)
 
 > ⚠️ **Data Limitation & Interpretation Note:**
-> The final two KPI cards on the dashboard (**Previous Month Sales** and **MOM Sales Growth %**) display blank or incomplete values in the snapshot. This is purely due to data limitations in the raw dataset (missing historical baseline records for the preceding comparative month). The underlying **DAX formulas and time-intelligence calculations are 100% accurate** and fully functional; they will populate automatically as soon as consecutive transactional data is refreshed into the semantic model.
+> The final two KPI cards on the dashboard (**Previous Month Sales** and **MOM Sales Growth %**) incomplete values in the snapshot. This is purely due to data limitations in the raw dataset (missing historical baseline records for the preceding comparative month). The underlying **DAX formulas and time-intelligence calculations are 100% accurate** and fully functional; they will populate automatically as soon as consecutive transactional data is refreshed into the semantic model.
 
 ## Files in this Folder
 * `All KPI.pdf` - A complete PDF document showing the full layout of the dashboard.
