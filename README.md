@@ -4,6 +4,7 @@
 This Power BI dashboard provides a comprehensive analysis of an e-commerce platform's sales performance, profitability, and operational efficiency. It tracks key performance indicators (KPIs) across sales cycles (MTD, QTD, YTD) and analyzes year-over-year (YOY) and month-over-month (MOM) growth.
 
 ## Live Preview / Dashboard Snapshot
+<img width="1919" height="923" alt="image" src="https://github.com/user-attachments/assets/082a9018-5d13-440b-b1b2-98d2b354bcd6" />
 
 
 ## Key Metrics & Insights
